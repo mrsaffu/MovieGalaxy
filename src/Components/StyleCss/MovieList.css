@@ -1,0 +1,139 @@
+/* .MovieList {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
+.search-container input {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0px 0px 4px;
+  font-size: 16px;
+
+}
+.search-container button {
+  padding: 5px 10px;
+  background-color: #e62429;
+  border: none;
+  color: white;
+  font-size: 5px;
+  border-radius: 0px 4px 4px 0px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.search-container button:hover {
+  background-color: #b71c1c;
+}
+.search-container button img {
+  height: 19px;
+  width: 18px;
+} */
+
+.MovieList {
+  /* border: 2px solid red; */
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+.MovieList h1{
+  /* border: 2px solid red; */
+  margin: 30px;
+}
+
+/* ---------------------------Dynamically------------- */
+section{
+    /* border: 2px solid red; */
+    border-radius: 0px 0px 10px 10px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 30px;
+    padding: 20px;
+}
+.card{
+    /* border: 2px solid red; */
+    /* border: 2px solid blue; */
+  height: auto;
+  width: 300px;
+  /* background-color: #4f3625; */
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  /* gap: 8px; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card img {
+    height: 350px;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+  }
+  
+  .card h4 {
+    /* border: 2px solid red; */
+    height: 8%;
+    font-size: 15px;
+    color: white;
+    padding: 13px 0px 0px 10px;
+  }
+  .card div {
+    /* border: 2px solid rebeccapurple; */
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+    padding: 0px 0px 10px 10px;
+  }
+  .card div p {
+    color: rgb(194, 190, 190);
+  }
+
+  /* --------Button ------------- */
+  
+.box5 {
+    /* border: 2px solid red; */
+    height: 80px;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 32px 0px 32px;
+    background-color:bla;
+    /* background-color: #2f1b0c; */
+    /* background-color: black; */
+  }
+  .box5 button {
+    background-color: #e62429;
+    border: none;
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    color: white ;
+  }
+  .box5 button:hover {
+    background-color: #b71c1c;
+  }
+  .buttonDisable {
+    pointer-events: none; /* Prevent clicks */
+    opacity: 0.5; /* Make it look disabled */
+    cursor: not-allowed; /* Change cursor to show it's not clickable */
+    background-color: #ccc; /* Optional: Change background to indicate it's disabled */
+    color: #777; /* Optional: Change text color */
+  }
